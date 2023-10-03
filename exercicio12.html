@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 12 - Formulário</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Exercício 12 - Formulário</h1>
+    <h2>&lt;input type="data" &gt;, &lt;input type="datetime" /&gt;, &lt;input type="datetime-local" /&gt; e &lt;input type="time" /&gt;</h2>
+  </header>
+  <hr>
+  <form method="post" action="" class="form-container">
+    <fieldset>
+      <legend>Elementos de data e tempo</legend>
+      <fieldset>
+        <legend>Agenda:</legend>
+        <label for="agedata" class="form-label">Data: <input type="date" name="agedata" class="form-input" /></label>
+        <label for="agedatat" class="form-label">Datetime (date e time): <input type="datetime" name="agedatat" class="form-input" /></label>
+        <label for="agedatatl" class="form-label">Datetime-local (date e time): <input type="datetime-local" name="agedatatl" class="form-input" /></label>
+        <label for="agetime" class="form-label">Selecione o tempo: <input type="time" name="agetime" class="form-input" /></label>
+      </fieldset>
+      <input type="submit" value="Enviar" class="submit-button" />
+    </fieldset>
+  </form>
+  <footer class="footer"><address>copyright &copy;Pedro Maia.</address></footer>
+</body>
+</html>

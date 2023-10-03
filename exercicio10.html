@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 10 - Formulário</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Exercício 10 - Formulário</h1>
+    <h2>&lt;input type="file" /&gt; e &lt;input type="hidden" /&gt;</h2>
+  </header>
+  <hr>
+  <form method="post" action="" enctype="multipart/form-data" class="form-container">
+    <fieldset>
+      <legend>Enviando arquivo</legend>
+      <label for="arquivo" class="form-label">Arquivo: <input type="file" id="arquivo" class="form-input" /></label>
+      <label for="escondido" class="form-label"><input type="hidden" id="escondido" value="arquivo enviado pelo usuário" class="form-input" /></label>
+      <input type="submit" value="Enviar" class="submit-button" />
+    </fieldset>
+  </form>
+  <footer class="footer"><address>copyright &copy;Carlos José.</address></footer>
+</body>
+</html>

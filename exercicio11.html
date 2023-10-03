@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 11 - Formulário</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Exercício 11 - Formulário</h1>
+    <h2>&lt;input type="radio" /&gt; e &lt;input type="checkbox" /&gt;</h2>
+  </header>
+  <hr>
+  <form method="post" action="" class="form-container">
+    <fieldset>
+      <legend>Opções de escolha</legend>
+      <fieldset>
+        <legend>Sexo:</legend>
+        <label for="feminino" class="form-label"><input type="radio" name="sexo" value="Feminino" class="form-input" />Feminino</label>
+        <label for="masculino" class="form-label"><input type="radio" name="sexo" value="Masculino" class="form-input" />Masculino</label>
+      </fieldset>
+      <fieldset>
+        <legend>Áreas de interesse:</legend>
+        <label class="form-checkbox-label"><input type="checkbox" name="interesse" value="Moda" class="form-checkbox" />Moda</label>
+        <label class="form-checkbox-label"><input type="checkbox" name="interesse" value="Esporte" checked="checked" class="form-checkbox" />Esporte</label>
+        <label class="form-checkbox-label"><input type="checkbox" name="interesse" value="Música" class="form-checkbox" />Música</label>
+        <label class="form-checkbox-label"><input type="checkbox" name="interesse" value="Dança" disabled="disabled" class="form-checkbox" />Dança</label>
+      </fieldset>
+      <input type="submit" value="Enviar" class="submit-button" />
+    </fieldset>
+  </form>
+  <footer class="footer"><address>copyright &copy;Pedro Maia.</address></footer>
+</body>
+</html>

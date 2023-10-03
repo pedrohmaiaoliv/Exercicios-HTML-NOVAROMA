@@ -1,0 +1,189 @@
+/* Reset de estilos básicos */
+body, h1, h2, p, ul, ol, li, form, fieldset, legend, select, textarea, input, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Define a fonte e o plano de fundo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0ff; /* Azul claro */
+  color: #333; /* Cor do texto padrão */
+  padding: 20px;
+}
+
+/* Estiliza o cabeçalho */
+.header {
+  background-color: #007acc; /* Azul mais escuro para o cabeçalho */
+  color: #fff; /* Cor do texto do cabeçalho */
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header h2 {
+  font-size: 18px;
+}
+
+/* Estiliza o formulário */
+.form-container {
+  background-color: #fff; /* Fundo branco para o formulário */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estiliza os campos de seleção e área de texto */
+.select-field,
+.textarea-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc; /* Borda cinza */
+  border-radius: 5px;
+}
+
+/* Estiliza o botão de envio */
+.submit-button {
+  background-color: #007acc; /* Cor do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estiliza o rodapé */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #777; /* Cor do texto do rodapé */
+}
+
+/* Define estilos para o link de direitos autorais */
+.footer a {
+  color: #777;
+  text-decoration: none;
+}
+
+/* Define estilos para o link de direitos autorais ao passar o mouse */
+.footer a:hover {
+  text-decoration: underline;
+}
+/* Estilização de Input */
+.form-input {
+  background-color: #fff; /* Cor de fundo branca */
+  border: 1px solid #ccc; /* Borda cinza */
+  padding: 5px; /* Espaçamento interno */
+}
+/* Tabela estilisando */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f8f8f8;
+}
+/* Estilização de campos e tabelas de forma melhorada */
+.styled-table caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+}
+
+.styled-table th, .styled-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.styled-table tfoot td {
+  font-weight: bold;
+}
+.form-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.form-fieldset {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.form-legend {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.submit-button {
+  padding: 8px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #555;
+}
+/* Estilos das Imagens */
+
+.header {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.image-figure {
+  text-align: center;
+  margin: 20px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.image-caption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #777;
+}

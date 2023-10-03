@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 13 - Formulário</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Exercício 13 - Formulário</h1>
+    <h2>&lt;select&gt;, &lt;option&gt; e &lt;textarea&gt;</h2>
+  </header>
+  <hr>
+  <form method="post" action="" class="form-container">
+    <fieldset>
+      <legend>Elementos menu e área de texto</legend>
+      <fieldset>
+        <legend>Seleção Simples</legend>
+        <select id="lista1" size="3" class="select-field">
+          <option value="1" selected="selected">Um</option>
+          <option value="2">Dois</option>
+          <option value="3">Três</option>
+          <option value="4">Quatro</option>
+        </select>
+        <select id="lista2" class="select-field">
+          <option value="1" selected="selected">Um</option>
+          <option value="2">Dois</option>
+          <option value="3">Três</option>
+          <option value="4">Quatro</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Seleção Múltipla</legend>
+        <select id="lista3" multiple="multiple" class="select-field">
+          <option value="1" selected="selected">Um</option>
+          <option value="2">Dois</option>
+          <option value="3">Três</option>
+          <option value="4">Quatro</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Seleção Múltipla</legend>
+        <select id="lista4" size="5" class="select-field">
+          <option selected label="Sem grupo" value="0">Sem grupo</option>
+          <optgroup label="Grupo 1">
+            <option label="Opção 1.1" value="1.1">Opção 1.1</option>
+            <option label="Opção 1.2" value="1.2">Opção 1.2</option>
+          </optgroup>
+          <optgroup label="Grupo 2">
+            <option label="Opção 2.1" value="2.1">Opção 2.1</option>
+            <option label="Opção 2.2" value="2.2">Opção 2.2</option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Elemento área de texto</legend>
+        <textarea id="comentario" rows="5" cols="60" wrap="on" class="textarea-field"></textarea>
+      </fieldset>
+      <input type="submit" value="Enviar" class="submit-button" />
+    </fieldset>
+  </form>
+  <footer class="footer"><address>copyright &copy;Pedro Maia.</address></footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 09 - Formulário</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Exercício 09 - Formulário</h1>
+    <h2>&lt;input type="text" &gt;, &lt;input type="password" /&gt; e &lt;input type="email" /&gt;</h2>
+  </header>
+  <hr>
+  <form method="post" action="" class="form-container">
+    <fieldset class="form-fieldset">
+      <legend class="form-legend">Login de Usuário</legend>
+      <div class="form-field">
+        <label for="usuario" class="form-label">Usuário:</label>
+        <input type="text" id="usuario" size="15" maxlength="10" class="form-input" />
+      </div>
+      <div class="form-field">
+        <label for="senha" class="form-label">Senha:</label>
+        <input type="password" id="senha" size="15" maxlength="10" class="form-input" />
+      </div>
+      <input type="submit" value="Ok" class="submit-button" />
+    </fieldset>
+    <fieldset class="form-fieldset">
+      <legend class="form-legend">Dados Cadastrais</legend>
+      <div class="form-field">
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" id="email" size="15" maxlength="60" class="form-input" />
+      </div>
+      <input type="submit" value="Ok" class="submit-button" />
+    </fieldset>
+    <fieldset class="form-fieldset">
+      <legend class="form-legend">Busca</legend>
+      <div class="form-field">
+        <label for="busca" class="form-label">Busca:</label>
+        <input type="search" id="busca" size="15" class="form-input" />
+      </div>
+    </fieldset>
+  </form>
+  <footer class="footer"><address>copyright &copy; Pedro Maia.</address></footer>
+</body>
+</html>
